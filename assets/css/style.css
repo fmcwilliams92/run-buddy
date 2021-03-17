@@ -5,12 +5,12 @@
 }
 
 body {
-    /* body color and font */
+    /* -- body color and font */
     color: #39a6b2;
     font-family: Helvetica;
 }
 
-/* header styles */
+/* -- header styles -- */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -66,4 +66,52 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+/* -- sections -- */
+section {
+    padding: 60px;
+}
+
+/* -- hero style start -- */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* -- hero style end -- */
+
+/* -- hero form box -- */
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.hero-form {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
 }
