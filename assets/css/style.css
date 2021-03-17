@@ -81,6 +81,15 @@ section {
     background-position: center;
     position: relative;
 }
+
+.hero-form button {
+    color: #fce138;
+    background-color: navy;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
 /* -- hero style end -- */
 
 /* -- hero form box -- */
@@ -97,12 +106,16 @@ section {
     right: 140px;
 }
 
+.hero-form label {
+    margin: 0 5px;
+}
+
 .hero-form h3 {
     font-size: 24px;
     margin: 0px;
 }
 
-.hero-form {
+.hero-form p {
     margin: 5px 0 15px 0;
 }
 
@@ -113,5 +126,5 @@ section {
     font-size: 16px;
     color: #024e76;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 15px;6
 }
