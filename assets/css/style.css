@@ -391,7 +391,7 @@ section {
     }
 
     .contact-info iframe {
-        
+        flex: 1 100%;
     }
 }
 
